@@ -19,30 +19,45 @@ html, body{
 .linkTitle {
     color: white;
     text-decoration: none;
+    font-size: 115%;
 }
 
 .News {
     padding: 10%;
-    background-color: darkred;
+    background-color: rgb(206, 9, 9);
     padding-top: 0;
     padding-bottom: 0;
+    border: none;
 }
 
 .Politics {
     padding: 10%;
-    background-color: darkred;
+    background-color: rgb(206, 9, 9);;
     padding-top: 0;
     padding-bottom: 0;
+    border: none;
 }
 
 .Economy {
     border: none;
-    padding: 9%;
-    background-color: darkred;
+    padding: 10.64%;
+    background-color: rgb(206, 9, 9);;
     padding-top: 0;
     padding-bottom: 0;
 }
 
 .News:hover, .Politics:hover, .Economy:hover {
     background-color: red;
+}
+
+.News-text {
+    display:none;
+}
+
+.Politics-text {
+    display: none;
+}
+
+.Economy-text {
+    display: none;
 }

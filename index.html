@@ -9,13 +9,73 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="https://open.kattis.com/images/site-logo">
+        <div class="logo"><img src="">
             </div>
         <div class="links">
-            <button class="News"><a href="https://www.google.com/webhp?hl=sv&sa=X&ved=0ahUKEwibgYuS84zmAhUFt4sKHRGcAHcQPAgH "><p class="linkTitle">News</p></a></button>
-            <button class="Politics"><a href="https://www.google.com/webhp?hl=sv&sa=X&ved=0ahUKEwibgYuS84zmAhUFt4sKHRGcAHcQPAgH"><p class="linkTitle">Politics</p></a></button> 
-            <button class="Economy"><a href="https://www.google.com/webhp?hl=sv&sa=X&ved=0ahUKEwibgYuS84zmAhUFt4sKHRGcAHcQPAgH"><p class="linkTitle">Economy</p></a></button>
+            <button onclick="myFunction()" class="News"><p class="linkTitle">News</p></button>
+            
+            <button onclick="myFunction1()" class="Politics"><p class="linkTitle">Politics</p></button> 
+            
+            <button onclick="myFunction2()" class="Economy"><p class="linkTitle">Economy</p></button>
                 </div>
     </header>
+
+        <div class="News-text" id="News-Page">
+        <p>NYHETER</p>
+
+    </div>
+
+    <div class="Politics-text" id="Politics-Page">
+        <p>POLTIK</p>
+
+    </div>
+
+    <div class="Economy-text" id="Economy-Page">
+        <p>EKONOMI </p>
+
+    </div>
+
+    <script>
+
+        function myFunction() {
+var x = document.getElementById("News-Page");
+var y = document.getElementById("Politics-Page");
+var z = document.getElementById("Economy-Page");
+  if (x.style.display === "none") {
+          x.style.display = "block";
+          y.style.display = "none";
+          z.style.display = "none";
+          } else {
+    x.style.display = "none";
+  }
+}
+
+    function myFunction1() {
+var x = document.getElementById("News-Page");
+var y = document.getElementById("Politics-Page");
+var z = document.getElementById("Economy-Page");
+  if (y.style.display === "none"){
+          y.style.display = "block";
+          x.style.display = "none";
+          z.style.display = "none";
+  } else {
+    y.style.display = "none";
+  }
+}
+
+    function myFunction2() {
+var x = document.getElementById("News-Page");
+var y = document.getElementById("Politics-Page");
+var z = document.getElementById("Economy-Page");
+  if (z.style.display === "none"){
+            z.style.display = "block";
+            x.style.display = "none";
+            y.style.display = "none";
+  } else {
+    y.style.display = "none";
+  }
+}
+
+      </script>
 </body>
 </html>
