@@ -48,16 +48,17 @@ html, body{
 
 .News:hover, .Politics:hover, .Economy:hover {
     background-color: red;
+    border: none;
 }
 
 .News-text {
-    display:none;
+    
 }
 
 .Politics-text {
-    display: none;
+    
 }
 
 .Economy-text {
-    display: none;
+    
 }
