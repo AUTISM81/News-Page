@@ -1,0 +1,49 @@
+header {
+    background-color:red;
+    max-height: max-content;
+}
+
+html, body{
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.links {
+    max-height: fit-content;
+    
+}
+
+.linkTitle {
+    color: white;
+}
+
+.News {
+    padding: 10%;
+    background-color: darkred;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+    color: whiteS;
+}
+
+.Politics {
+    padding: 10%;
+    background-color: darkred;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Economy {
+    border: none;
+    padding: 9%;
+    background-color: darkred;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.links:hover {
+    background-color: red;
+}
