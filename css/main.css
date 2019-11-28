@@ -1,6 +1,7 @@
 header {
     background-color:red;
     max-height: max-content;
+
 }
 
 html, body{
@@ -12,8 +13,7 @@ html, body{
 }
 
 .links {
-    max-height: fit-content;
-    
+    display: flex;
 }
 
 .linkTitle {
@@ -23,27 +23,27 @@ html, body{
 }
 
 .News {
-    padding: 10%;
     background-color: rgb(206, 9, 9);
     padding-top: 0;
     padding-bottom: 0;
     border: none;
+    width: 100%;
 }
 
 .Politics {
-    padding: 10%;
     background-color: rgb(206, 9, 9);;
     padding-top: 0;
     padding-bottom: 0;
     border: none;
+    width: 100%;
 }
 
 .Economy {
     border: none;
-    padding: 10.64%;
     background-color: rgb(206, 9, 9);;
     padding-top: 0;
     padding-bottom: 0;
+    width:100%;
 }
 
 .News:hover, .Politics:hover, .Economy:hover {
