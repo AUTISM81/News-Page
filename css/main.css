@@ -24,25 +24,10 @@ html, body{
     font-size: 115%;
 }
 
-.News {
+
+.Economy, .News, .Politics {
+    border: none;
     background-color: rgb(206, 9, 9);
-    padding-top: 0;
-    padding-bottom: 0;
-    border: none;
-    width: 100%;
-}
-
-.Politics {
-    background-color: rgb(206, 9, 9);;
-    padding-top: 0;
-    padding-bottom: 0;
-    border: none;
-    width: 100%;
-}
-
-.Economy {
-    border: none;
-    background-color: rgb(206, 9, 9);;
     padding-top: 0;
     padding-bottom: 0;
     width:100%;
