@@ -6,6 +6,7 @@ header {
 
 html, body{
     margin: 0;
+    background-color: whitesmoke;
 }
 
 .logo {
@@ -14,6 +15,9 @@ html, body{
 
 .links {
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .linkTitle {
@@ -22,32 +26,107 @@ html, body{
     font-size: 115%;
 }
 
-.News {
-    background-color: rgb(206, 9, 9);
+.News, .Economy, .Politics {
+    background-color:rgb(206, 9, 9);
     padding-top: 0;
-    padding-bottom: 0;
     border: none;
     width: 100%;
+    outline: none;
 }
 
-.Politics {
-    background-color: rgb(206, 9, 9);;
-    padding-top: 0;
-    padding-bottom: 0;
-    border: none;
-    width: 100%;
-}
-
-.Economy {
-    border: none;
-    background-color: rgb(206, 9, 9);;
-    padding-top: 0;
-    padding-bottom: 0;
-    width:100%;
-}
-
-.News:hover, .Politics:hover, .Economy:hover {
+.News:hover, .Economy:hover, .Politics:hover {
     background-color: red;
     border: none;
+    outline: none;
 }
 
+.News-text, .Economy-text, Politics-text {
+    text-align: center;
+    background-color:;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding-top: 12%;
+}
+
+.news1 {
+    max-width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin-bottom: 1em;
+}
+
+ .news1-pic {
+     max-width: 90%;
+     border: 1px solid black;
+     margin-top: 3%;
+     margin-left: 3%;
+     margin-right: 3%;
+     border-radius: 8px;
+     border: 2px solid white;
+    
+ }
+
+ .news1-title{
+     margin-bottom: 2em;
+     margin-top: 1em;
+     font-size: 100%;
+ }
+
+ .news1-text {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 75%;
+ }
+
+ .reference {
+     max-width: 100%;
+     font-size: 0.5em;
+     font: italic;
+     padding-right: 5%;
+     background-color: white;
+     text-align: right;
+ }
+
+ .news2 {
+    max-width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin-bottom: 1em;
+}
+
+ .news2-pic {
+     max-width: 90%;
+     border: 1px solid black;
+     margin-top: 3%;
+     margin-left: 3%;
+     margin-right: 3%;
+     border-radius: 8px;
+     border: 2px solid white;
+    
+ }
+
+ .news2-title{
+     margin-bottom: 2em;
+     margin-top: 1em;
+     font-size: 100%;
+ }
+
+ .news2-text {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 75%;
+ }
+
+ .reference2 {
+     max-width: 100%;
+     font-size: 0.5em;
+     font: italic;
+     padding-right: 5%;
+     background-color: white;
+     text-align: right;
+ }
