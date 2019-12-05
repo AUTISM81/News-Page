@@ -1,7 +1,8 @@
 header {
     background-color:red;
     max-height: max-content;
-
+    height: 100%;
+    overflow: auto;
 }
 
 html, body{
@@ -11,6 +12,7 @@ html, body{
 
 .logo {
     text-align: center;
+    font-size: 125%;
 }
 
 .links {
@@ -26,6 +28,7 @@ html, body{
     font-size: 115%;
 }
 
+<<<<<<< HEAD
 .News, .Economy, .Politics {
     background-color:rgb(206, 9, 9);
     padding-top: 0;
@@ -56,6 +59,21 @@ html, body{
     border-radius: 12px;
     border: 2px solid white;
     margin-bottom: 1em;
+=======
+
+.Economy, .News, .Politics {
+    border: none;
+    background-color: rgb(206, 9, 9);
+    padding-top: 0;
+    padding-bottom: 0;
+    width:100%;
+}
+
+.News:hover, .Politics:hover, .Economy:hover {
+    background-color: red;
+    border: none;
+    outline: none;
+>>>>>>> 19121bb59624c5968e2896f4fe99aabd8e39c0e4
 }
 
  .news1-pic {
