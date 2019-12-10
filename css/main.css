@@ -11,14 +11,27 @@ html, body{
 
 .logo {
     text-align: center;
+    width: 10%;
+    height: 10px;
 }
 
 .links {
     display: flex;
-    position: fixed;
     width: 100%;
-    top: 0;
+    overflow: hidden;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + main {
+    padding-top: 60px;
+    background-color: blue;
+}
+  
 
 .linkTitle {
     color: white;
@@ -28,7 +41,6 @@ html, body{
 
 .News, .Economy, .Politics {
     background-color:rgb(206, 9, 9);
-    padding-top: 0;
     border: none;
     width: 100%;
     outline: none;
@@ -40,7 +52,7 @@ html, body{
     outline: none;
 }
 
-.News-text, .Economy-text, Politics-text {
+.News-text, .Economy-text, .Politics-text {
     text-align: center;
     background-color:;
     margin-left: 10%;
@@ -79,6 +91,8 @@ html, body{
     max-width: 75%;
     margin: 0 auto;
     font-size: 75%;
+    line-height: 140%;
+    margin-bottom: 10%;
  }
 
  .reference {
@@ -120,6 +134,8 @@ html, body{
     max-width: 75%;
     margin: 0 auto;
     font-size: 75%;
+    line-height: 140%;
+    margin-bottom: 10%;
  }
 
  .reference2 {
@@ -130,3 +146,4 @@ html, body{
      background-color: white;
      text-align: right;
  }
+ 
