@@ -1,7 +1,6 @@
 header {
     background-color:red;
     max-height: max-content;
-
 }
 
 html, body{
@@ -15,7 +14,14 @@ html, body{
     height: 10px;
 }
 
-.links {
+.wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: red;
+}
+
+#navbar {
     display: flex;
     width: 100%;
     overflow: hidden;
@@ -25,14 +31,9 @@ html, body{
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-.sticky + main {
-    padding-top: 60px;
-    background-color: blue;
+    z-index: 1;
 }
   
-
 .linkTitle {
     color: white;
     text-decoration: none;
@@ -68,6 +69,7 @@ html, body{
     border-radius: 12px;
     border: 2px solid white;
     margin-bottom: 1em;
+    margin-top: 8%;
 }
 
  .news1-pic {

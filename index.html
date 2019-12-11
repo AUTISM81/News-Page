@@ -9,18 +9,21 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="https://support.discordapp.com/hc/article_attachments/360007385891/SE_-_2_.jpg" height="20px">
-            </div>
-        <div class="links" id="navbar">
-            <button onclick="myFunction()" class="News"><p class="linkTitle">News</p></button>
-            
-            <button onclick="myFunction1()" class="Politics"><p class="linkTitle">Politics</p></button> 
-            
-            <button onclick="myFunction2()" class="Economy"><p class="linkTitle">Economy</p></button>
-                </div>
-    </header>
+        <div class="wrapper">
+            <div class="logo"><img src="https://support.discordapp.com/hc/article_attachments/360007385891/SE_-_2_.jpg" height="20px">
+        </div>
     
-    <main>
+            <div  id="navbar">
+                <button onclick="myFunction()" class="News"><p class="linkTitle">News</p></button>
+            
+                <button onclick="myFunction1()" class="Politics"><p class="linkTitle">Politics</p></button> 
+            
+                <button onclick="myFunction2()" class="Economy"><p class="linkTitle">Economy</p></button>
+                    </div>
+                </div>
+        </header>
+    
+    <div class="all-news" id="all-news">
 
         <div class="News-text" id="News-Page" style="display: block;">
             
@@ -144,10 +147,11 @@
 
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
+        var allnews = document.getElementById("all-news")
 
         function myFunction3() {
           if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
+            navbar.classList.add("sticky");
         } else {
             navbar.classList.remove("sticky");
         }
