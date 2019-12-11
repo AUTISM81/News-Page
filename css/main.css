@@ -8,10 +8,14 @@ html, body{
     background-color: whitesmoke;
 }
 
+.divlogo {
+    text-align: center;
+}
+
 .logo {
     text-align: center;
-    width: 10%;
-    height: 10px;
+    width: 30%;
+    margin-top: 1%;
 }
 
 .wrapper {
@@ -69,7 +73,7 @@ html, body{
     border-radius: 12px;
     border: 2px solid white;
     margin-bottom: 1em;
-    margin-top: 8%;
+    margin-top: 20%;
 }
 
  .news1-pic {
