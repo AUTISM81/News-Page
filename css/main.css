@@ -19,10 +19,10 @@ html, body{
 }
 
 .wrapper {
-    position: absolute;
     top: 0;
     width: 100%;
     background-color: red;
+    margin-bottom: 0;
 }
 
 #navbar {
@@ -32,7 +32,7 @@ html, body{
 }
 
 .sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 1;
@@ -57,7 +57,7 @@ html, body{
     outline: none;
 }
 
-.News-text, .Economy-text, .Politics-text {
+.News-text, .Politics-text {
     text-align: center;
     background-color:;
     margin-left: 10%;
@@ -73,7 +73,6 @@ html, body{
     border-radius: 12px;
     border: 2px solid white;
     margin-bottom: 1em;
-    margin-top: 20%;
 }
 
  .news1-pic {
@@ -153,3 +152,127 @@ html, body{
      text-align: right;
  }
  
+.about-us {
+    max-width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin-bottom: 1em;
+}
+
+.Economy-text {
+    background-color:;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding-top: 12%;
+}
+
+.about-us-title {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.about-us-pic {
+    max-width: 50%;
+    align-self: flex-start;
+    border: 1px solid black;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.about-us-text{
+    font-size: 3vw;
+    text-align: center;
+    display: flex;
+}
+
+.bottom-text {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .divlogo {
+        text-align: left;
+        margin-left: 3%;
+        width: 50%;
+    }
+
+    #navbar {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .linkTitle {
+        color: white;
+        text-decoration: none;
+        font-size: 130%;
+    }
+
+    .News-text, .Politics-text, .Economy-text {
+        text-align: center;
+        background-color:;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 1%;
+        padding-top: 2%;
+    }
+
+    .news2 {
+        margin-top: 5%;
+    }
+
+    .news2-text, .news1-text {
+        max-width: 75%;
+        margin: 0 auto;
+        font-size: 120%;
+        line-height: 140%;
+        margin-bottom: 10%;
+     }
+     
+     .news1-title, .news2-title {
+         font-size: 150%;
+     }
+
+     .Economy-text {
+        background-color:;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 3%;
+        padding-top:0;
+    }
+    
+    .about-us-title {
+        text-align: center;
+        font-size: 250%;
+    }
+    
+    .about-us-pic {
+        max-width: 50%;
+        align-self: flex-start;
+        border: 1px solid black;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+        border-radius: 8px;
+        border: 2px solid white;
+    }
+    
+    .about-us-text{
+        font-size: 2vw;
+        text-align: center;
+        display: flex;
+    }
+    
+    .bottom-text {
+        font-size: 1.5vw;
+        text-align: center;
+    }
+}
