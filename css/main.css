@@ -224,16 +224,28 @@ html, body{
         padding-top: 2%;
     }
 
+    .news1-pic, .news2-pic {
+        width: 65%;
+    }
+
+    .news1-title, .news2-title {
+        width: 64%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
     .news2 {
         margin-top: 5%;
     }
 
     .news2-text, .news1-text {
-        max-width: 75%;
+        max-width: 60%;
         margin: 0 auto;
         font-size: 120%;
         line-height: 140%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
      }
      
      .news1-title, .news2-title {
@@ -266,7 +278,8 @@ html, body{
     }
     
     .about-us-text{
-        font-size: 2vw;
+        font-size: 1.5vw;
+        line-height: 120%;
         text-align: center;
         display: flex;
     }
